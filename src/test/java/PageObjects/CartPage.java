@@ -19,14 +19,14 @@ public class CartPage extends BasePage{
 	public void clickCarticon() {
 		cartIcon.click();
 	}
-	
+	//a[@aria-label="Add “Green Tshirt” to your cart"]
 	public void ClickcartProduct(String prod) {
-	WebElement cartprod = ldriver.findElement(By.xpath("//a[@aria-label=\"Add “"+prod+"” to your cart\"]"));
+	WebElement cartprod = ldriver.findElement(By.xpath("//h2[.='"+prod+"']/../..//a[contains(@class,'add_to_cart')]"));
 	cartprod.click();
 	}
 	
 	public void Clickviewcart(String prod) {
-		WebElement viewcart = ldriver.findElement(By.xpath("//a[@aria-label=\"Add “"+prod+"” to your cart\"]/..//a[@title=\"View cart\"]"));
+		WebElement viewcart = ldriver.findElement(By.xpath("//h2[.='"+prod+"']/../..//a[contains(@class,'add_to_cart')]/..//a[@title=\"View cart\"]"));
 		viewcart.isDisplayed();
 		viewcart.click();
 	}

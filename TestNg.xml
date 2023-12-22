@@ -12,7 +12,7 @@
 		<parameter name="browser" value="chrome"/>
 		
 				<classes>
-					 <class name="TestCases.ClickMenus_0003"/>
+					  <class name="TestCases.ClickMenus_0003"/>
 					 <class name="TestCases.LoginTest_0001"/>
 					<class name="TestCases.CartTest_0002"/>
 					<class name="TestCases.Checkout_0004"/>

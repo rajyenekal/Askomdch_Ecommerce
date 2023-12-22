@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-22T10:10:38 IST" name="AskomdchEcommerce" finished-at="2023-12-22T10:12:16 IST" duration-ms="97909">
+  <suite started-at="2023-12-22T21:38:35 IST" name="AskomdchEcommerce" finished-at="2023-12-22T21:40:40 IST" duration-ms="124652">
     <groups>
     </groups>
-    <test started-at="2023-12-22T10:10:38 IST" name="Askomdch Test" finished-at="2023-12-22T10:12:16 IST" duration-ms="97909">
+    <test started-at="2023-12-22T21:38:35 IST" name="Askomdch Test" finished-at="2023-12-22T21:40:40 IST" duration-ms="124652">
       <class name="TestCases.Checkout_0004">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.Checkout_0004@5b239d7d]" started-at="2023-12-22T10:11:48 IST" name="setup" finished-at="2023-12-22T10:11:57 IST" duration-ms="8663" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.Checkout_0004@16293aa2]" started-at="2023-12-22T21:40:03 IST" name="setup" finished-at="2023-12-22T21:40:13 IST" duration-ms="9561" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkout()[pri:0, instance:TestCases.Checkout_0004@5b239d7d]" started-at="2023-12-22T10:11:57 IST" name="checkout" finished-at="2023-12-22T10:12:15 IST" duration-ms="18401" status="PASS">
+        <test-method signature="checkout()[pri:0, instance:TestCases.Checkout_0004@16293aa2]" started-at="2023-12-22T21:40:13 IST" name="checkout" finished-at="2023-12-22T21:40:39 IST" duration-ms="25560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Checkout_0004@5b239d7d]" started-at="2023-12-22T10:12:15 IST" name="teardown" finished-at="2023-12-22T10:12:16 IST" duration-ms="510" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Checkout_0004@16293aa2]" started-at="2023-12-22T21:40:39 IST" name="teardown" finished-at="2023-12-22T21:40:40 IST" duration-ms="1212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCases.Checkout_0004 -->
       <class name="TestCases.ClickMenus_0003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.ClickMenus_0003@4a94ee4]" started-at="2023-12-22T10:10:38 IST" name="setup" finished-at="2023-12-22T10:11:01 IST" duration-ms="23529" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.ClickMenus_0003@2a798d51]" started-at="2023-12-22T21:38:35 IST" name="setup" finished-at="2023-12-22T21:38:55 IST" duration-ms="19229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,17 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyallMenu()[pri:0, instance:TestCases.ClickMenus_0003@4a94ee4]" started-at="2023-12-22T10:11:01 IST" name="verifyallMenu" finished-at="2023-12-22T10:11:13 IST" duration-ms="11595" status="PASS">
+        <test-method signature="verifyallMenu()[pri:0, instance:TestCases.ClickMenus_0003@2a798d51]" started-at="2023-12-22T21:38:55 IST" name="verifyallMenu" finished-at="2023-12-22T21:39:12 IST" duration-ms="17545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyallMenu -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.ClickMenus_0003@4a94ee4]" started-at="2023-12-22T10:11:13 IST" name="teardown" finished-at="2023-12-22T10:11:14 IST" duration-ms="570" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.ClickMenus_0003@2a798d51]" started-at="2023-12-22T21:39:12 IST" name="teardown" finished-at="2023-12-22T21:39:13 IST" duration-ms="992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCases.ClickMenus_0003 -->
       <class name="TestCases.LoginTest_0001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.LoginTest_0001@5876a9af]" started-at="2023-12-22T10:11:14 IST" name="setup" finished-at="2023-12-22T10:11:23 IST" duration-ms="9658" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.LoginTest_0001@222545dc]" started-at="2023-12-22T21:39:13 IST" name="setup" finished-at="2023-12-22T21:39:24 IST" duration-ms="11289" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,17 +60,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest()[pri:0, instance:TestCases.LoginTest_0001@5876a9af]" started-at="2023-12-22T10:11:23 IST" name="logintest" finished-at="2023-12-22T10:11:28 IST" duration-ms="5050" status="PASS">
+        <test-method signature="logintest()[pri:0, instance:TestCases.LoginTest_0001@222545dc]" started-at="2023-12-22T21:39:24 IST" name="logintest" finished-at="2023-12-22T21:39:33 IST" duration-ms="8369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginTest_0001@5876a9af]" started-at="2023-12-22T10:11:28 IST" name="teardown" finished-at="2023-12-22T10:11:29 IST" duration-ms="474" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginTest_0001@222545dc]" started-at="2023-12-22T21:39:33 IST" name="teardown" finished-at="2023-12-22T21:39:34 IST" duration-ms="1629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCases.LoginTest_0001 -->
       <class name="TestCases.CartTest_0002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.CartTest_0002@7ec7ffd3]" started-at="2023-12-22T10:11:29 IST" name="setup" finished-at="2023-12-22T10:11:38 IST" duration-ms="8743" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.CartTest_0002@5c5eefef]" started-at="2023-12-22T21:39:34 IST" name="setup" finished-at="2023-12-22T21:39:45 IST" duration-ms="10276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addtoCart()[pri:0, instance:TestCases.CartTest_0002@7ec7ffd3]" started-at="2023-12-22T10:11:38 IST" name="addtoCart" finished-at="2023-12-22T10:11:47 IST" duration-ms="9823" status="PASS">
+        <test-method signature="addtoCart()[pri:0, instance:TestCases.CartTest_0002@5c5eefef]" started-at="2023-12-22T21:39:45 IST" name="addtoCart" finished-at="2023-12-22T21:40:02 IST" duration-ms="17429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addtoCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.CartTest_0002@7ec7ffd3]" started-at="2023-12-22T10:11:47 IST" name="teardown" finished-at="2023-12-22T10:11:48 IST" duration-ms="641" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.CartTest_0002@5c5eefef]" started-at="2023-12-22T21:40:02 IST" name="teardown" finished-at="2023-12-22T21:40:03 IST" duration-ms="1329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

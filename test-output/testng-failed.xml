@@ -7,13 +7,13 @@
   <test thread-count="5" name="Askomdch Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.LoginTest_0001">
+      <class name="TestCases.CartTest_0002">
         <methods>
-          <include name="logintest"/>
+          <include name="addtoCart"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- TestCases.LoginTest_0001 -->
+      </class> <!-- TestCases.CartTest_0002 -->
     </classes>
   </test> <!-- Askomdch Test(failed) -->
 </suite> <!-- Failed suite [AskomdchEcommerce] -->

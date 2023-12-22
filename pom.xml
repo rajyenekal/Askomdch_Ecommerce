@@ -4,6 +4,7 @@
   <artifactId>AskomdchEcommerce</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  
   <!-- plugins required for execution of Testcases-->
   
   <build>
@@ -13,6 +14,7 @@
   			<artifactId>maven-compiler-plugin</artifactId>
   			<version>3.11.0</version>
   			<configuration>
+  				<encoding>windows-1252</encoding>
   				<source>1.7</source>
   				<target>1.7</target>
   			</configuration>
@@ -21,7 +23,7 @@
   		<plugin>
   		<groupId>org.apache.maven.plugins</groupId>
   		<artifactId>maven-surefire-plugin</artifactId>
-  		<version>3.2.2</version>
+  		<version>3.2.3</version>
   		<configuration>
   			<suiteXmlFiles>
   				<suiteXmlFile>TestNG.xml</suiteXmlFile>
@@ -36,6 +38,14 @@
 
   
   <dependencies>
+		  <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.18.30</version>
+		    <scope>provided</scope>
+		</dependency>
+
   <!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependency>
 	    <groupId>junit</groupId>
