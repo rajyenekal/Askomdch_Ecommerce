@@ -1,5 +1,7 @@
 package TestCases;
 
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 
 import PageObjects.BillingPage;
@@ -11,7 +13,7 @@ import PageObjects.LoginPage;
 public class Checkout_0004 extends BaseTest {
 	
 	@Test
-	public void checkout() throws InterruptedException {
+	public void checkout() throws InterruptedException, IOException {
 		
 		CartPage cp=new CartPage(driver);
 		HomePage hp = new HomePage(driver);
@@ -69,7 +71,10 @@ public class Checkout_0004 extends BaseTest {
 			logger.info("Order Method is "+bp.orderMethod());
 		}
 		
-		
+		else {
+			CaptureScreen(driver, "Checkout");
+			logger.warn("Checkout Failed");
+		}
 		
 		
 		

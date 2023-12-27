@@ -44,5 +44,7 @@ public class CartTest_0002 extends BaseTest {
 			logger.info("Product not added to cart");
 			Assert.assertTrue(false);
 		}
+		
+		
 	}
 }

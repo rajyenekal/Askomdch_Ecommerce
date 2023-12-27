@@ -3,17 +3,18 @@
 <suite name="Failed suite [AskomdchEcommerce]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="Utilities.TestListener"/>
+    <listener class-name="Utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="Askomdch Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.CartTest_0002">
+      <class name="TestCases.dataprovider">
         <methods>
-          <include name="addtoCart"/>
+          <include name="clickMenus"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- TestCases.CartTest_0002 -->
+      </class> <!-- TestCases.dataprovider -->
     </classes>
   </test> <!-- Askomdch Test(failed) -->
 </suite> <!-- Failed suite [AskomdchEcommerce] -->

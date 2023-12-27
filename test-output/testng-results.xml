@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-22T21:36:22 IST" name="AskomdchEcommerce" finished-at="2023-12-22T21:37:09 IST" duration-ms="47451">
+  <suite started-at="2023-12-27T14:06:38 IST" name="AskomdchEcommerce" finished-at="2023-12-27T14:08:45 IST" duration-ms="126535">
     <groups>
     </groups>
-    <test started-at="2023-12-22T21:36:22 IST" name="Askomdch Test" finished-at="2023-12-22T21:37:09 IST" duration-ms="47451">
-      <class name="TestCases.CartTest_0002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.CartTest_0002@73a1e9a9]" started-at="2023-12-22T21:36:22 IST" name="setup" finished-at="2023-12-22T21:36:47 IST" duration-ms="25031" status="PASS">
+    <test started-at="2023-12-27T14:06:38 IST" name="Askomdch Test" finished-at="2023-12-27T14:08:45 IST" duration-ms="126535">
+      <class name="TestCases.Checkout_0004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.Checkout_0004@77fbd92c]" started-at="2023-12-27T14:07:44 IST" name="setup" finished-at="2023-12-27T14:07:52 IST" duration-ms="8024" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,168 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addtoCart()[pri:0, instance:TestCases.CartTest_0002@73a1e9a9]" started-at="2023-12-22T21:36:47 IST" name="addtoCart" finished-at="2023-12-22T21:37:07 IST" duration-ms="20467" status="PASS">
+        <test-method signature="checkout()[pri:0, instance:TestCases.Checkout_0004@77fbd92c]" started-at="2023-12-27T14:07:52 IST" name="checkout" finished-at="2023-12-27T14:08:12 IST" duration-ms="20561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Checkout_0004@77fbd92c]" started-at="2023-12-27T14:08:12 IST" name="teardown" finished-at="2023-12-27T14:08:14 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.Checkout_0004 -->
+      <class name="TestCases.ClickMenus_0003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.ClickMenus_0003@c8c12ac]" started-at="2023-12-27T14:06:40 IST" name="setup" finished-at="2023-12-27T14:06:55 IST" duration-ms="14643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyallMenu()[pri:0, instance:TestCases.ClickMenus_0003@c8c12ac]" started-at="2023-12-27T14:06:55 IST" name="verifyallMenu" finished-at="2023-12-27T14:07:07 IST" duration-ms="12410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyallMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.ClickMenus_0003@c8c12ac]" started-at="2023-12-27T14:07:07 IST" name="teardown" finished-at="2023-12-27T14:07:09 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.ClickMenus_0003 -->
+      <class name="TestCases.LoginTest_0001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.LoginTest_0001@1b7cc17c]" started-at="2023-12-27T14:07:09 IST" name="setup" finished-at="2023-12-27T14:07:17 IST" duration-ms="7838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:TestCases.LoginTest_0001@1b7cc17c]" started-at="2023-12-27T14:07:17 IST" name="logintest" finished-at="2023-12-27T14:07:22 IST" duration-ms="5132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginTest_0001@1b7cc17c]" started-at="2023-12-27T14:07:22 IST" name="teardown" finished-at="2023-12-27T14:07:23 IST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.LoginTest_0001 -->
+      <class name="TestCases.dataprovider">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.dataprovider@67c27493]" started-at="2023-12-27T14:08:14 IST" name="setup" finished-at="2023-12-27T14:08:22 IST" duration-ms="8314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickMenus(java.lang.String)[pri:0, instance:TestCases.dataprovider@67c27493]" started-at="2023-12-27T14:08:27 IST" name="clickMenus" data-provider="clickMenu" finished-at="2023-12-27T14:08:30 IST" duration-ms="2941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenus -->
+        <test-method signature="clickMenus(java.lang.String)[pri:0, instance:TestCases.dataprovider@67c27493]" started-at="2023-12-27T14:08:30 IST" name="clickMenus" data-provider="clickMenu" finished-at="2023-12-27T14:08:32 IST" duration-ms="2222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Men]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenus -->
+        <test-method signature="clickMenus(java.lang.String)[pri:0, instance:TestCases.dataprovider@67c27493]" started-at="2023-12-27T14:08:32 IST" name="clickMenus" data-provider="clickMenu" finished-at="2023-12-27T14:08:34 IST" duration-ms="1638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenus -->
+        <test-method signature="clickMenus(java.lang.String)[pri:0, instance:TestCases.dataprovider@67c27493]" started-at="2023-12-27T14:08:34 IST" name="clickMenus" data-provider="clickMenu" finished-at="2023-12-27T14:08:35 IST" duration-ms="1786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessories]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenus -->
+        <test-method signature="clickMenus(java.lang.String)[pri:0, instance:TestCases.dataprovider@67c27493]" started-at="2023-12-27T14:08:35 IST" name="clickMenus" data-provider="clickMenu" finished-at="2023-12-27T14:08:38 IST" duration-ms="2721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenus -->
+        <test-method signature="clickMenus(java.lang.String)[pri:0, instance:TestCases.dataprovider@67c27493]" started-at="2023-12-27T14:08:38 IST" name="clickMenus" data-provider="clickMenu" finished-at="2023-12-27T14:08:40 IST" duration-ms="1612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[About]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenus -->
+        <test-method signature="clickMenus(java.lang.String)[pri:0, instance:TestCases.dataprovider@67c27493]" started-at="2023-12-27T14:08:40 IST" name="clickMenus" data-provider="clickMenu" finished-at="2023-12-27T14:08:42 IST" duration-ms="2563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.dataprovider@67c27493]" started-at="2023-12-27T14:08:42 IST" name="teardown" finished-at="2023-12-27T14:08:45 IST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.dataprovider -->
+      <class name="TestCases.CartTest_0002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.CartTest_0002@59662a0b]" started-at="2023-12-27T14:07:23 IST" name="setup" finished-at="2023-12-27T14:07:31 IST" duration-ms="7988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addtoCart()[pri:0, instance:TestCases.CartTest_0002@59662a0b]" started-at="2023-12-27T14:07:31 IST" name="addtoCart" finished-at="2023-12-27T14:07:43 IST" duration-ms="12250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addtoCart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.CartTest_0002@73a1e9a9]" started-at="2023-12-22T21:37:07 IST" name="teardown" finished-at="2023-12-22T21:37:09 IST" duration-ms="1699" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.CartTest_0002@59662a0b]" started-at="2023-12-27T14:07:43 IST" name="teardown" finished-at="2023-12-27T14:07:44 IST" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -5,19 +5,19 @@
 
 	<listeners>
 		<listener class-name="Utilities.TestListener"/>
+		<listener class-name="Utilities.Reporting"/>
 	</listeners>
 
 	<test name="Askomdch Test">
 	
 		<parameter name="browser" value="chrome"/>
-		
 				<classes>
 					  <class name="TestCases.ClickMenus_0003"/>
 					 <class name="TestCases.LoginTest_0001"/>
 					<class name="TestCases.CartTest_0002"/>
 					<class name="TestCases.Checkout_0004"/>
+					<class name="TestCases.dataprovider"/>
 				</classes>
-		
 	</test>
 	
 </suite>

@@ -1,1 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+    <!-- Report Configuration -->
+    <configuration>
+        <!-- Report Name -->
+        <reportName>Your Test Automation Report</reportName>
+
+        <!-- Document Title -->
+        <documentTitle>Automation Test Results</documentTitle>
+
+        <!-- Theme (standard, dark) -->
+        <theme>standard</theme>
+
+        <!-- Encoding (default is UTF-8) -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Automatically Create Relative Path for Media (e.g., screenshots) -->
+        <autoCreateRelativePathMedia>true</autoCreateRelativePathMedia>
+
+        <!-- Report Snapshots (screenshots) -->
+        <takeScreenShotsForChildSteps>true</takeScreenShotsForChildSteps>
+    </configuration>
+
+    <!-- Test Suite Information -->
+    <suite>
+        <!-- Suite Name -->
+        <name>AskomdchEcommerce</name>
+    </suite>
+
+    <!-- Test Information -->
+    <test>
+        <!-- Test Name -->
+        <name>Askomdch Test</name>
+    </test>
+</extentreports>
+
+
